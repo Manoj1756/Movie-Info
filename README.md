@@ -12,13 +12,8 @@
     <ol>
       <li>Start the development server: <code>npm start</code></li>
       <li>Open your web browser and navigate to <code>http://localhost:3000</code></li>
-      <li>Browse recommended movies and click on a movie to view its summary and watch its trailer</li>
-    </ol>  
-    <h2>Features</h2>
-    <ul>
       <li>Browse recommended movies</li>
-      <li>View movie summaries</li>
-      <li>Watch movie trailers</li>
+    </ol>  
     </ul>   
     <h2>Contributing</h2>
     <p>If you would like to contribute to Movie-info, follow these steps:</p>
