@@ -1,4 +1,4 @@
-  <body>
+
     <h1>Movie-info</h1>
     
     <h2>Installation</h2>
@@ -44,4 +44,3 @@
     
     <h2>License</h2>
     <p>Movie-info is licensed under the MIT License.</p>
-  </body>
