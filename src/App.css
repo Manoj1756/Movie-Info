@@ -1,0 +1,19 @@
+.app-container {
+  @apply max-w-screen-lg mx-auto px-4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.main-content {
+  @apply flex flex-wrap gap-8 mt-12;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.movie-details {
+  @apply w-full;
+  width: 100%;
+}

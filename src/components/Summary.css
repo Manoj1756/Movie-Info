@@ -1,0 +1,41 @@
+.summary {
+  margin-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #333;
+  }
+  
+  .summary__title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f2937;
+  }
+  
+  .summary__text {
+  margin-top: 2rem;
+  line-height: 1.5;
+  }
+  
+  .summary__detail {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #6b7280;
+  }
+  
+  .summary {
+  @apply mt-12;
+  }
+  
+  .summary__title {
+  @apply text-2xl font-bold;
+  }
+  
+  .summary__text {
+  @apply mt-8 leading-relaxed;
+  }
+  
+  .summary__detail {
+  @apply mt-4 text-lg font-normal text-gray-500;
+  }

@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  }
+  
+  .header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  }
+  
+  .header__logo {
+  width: 4rem;
+  height: auto;
+  }
+  
+  .header__button {
+  padding: 0.5rem 1rem;
+  background-color: #4b5563;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  }
+  
+  /* Styles for screens smaller than 768px (e.g. mobile devices) */
+  @media (max-width: 767px) {
+  .header {
+  padding: 0.5rem;
+  }
+  
+  .header__title {
+  font-size: 1.5rem;
+  }
+  
+  .header__logo {
+  width: 3rem;
+  }
+  
+  .header__button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  }
+  }
+  
+  /* Styles for screens smaller than 321px (e.g. older mobile devices) */
+  @media (max-width: 320px) {
+  .header {
+  padding: 0.25rem;
+  }
+  
+  .header__title {
+  font-size: 1.25rem;
+  }
+  
+  .header__logo {
+  width: 2.5rem;
+  }
+  
+  .header__button {
+  padding: 0.1rem 0.25rem;
+  font-size: 0.6rem;
+  }
+  }

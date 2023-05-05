@@ -1,0 +1,84 @@
+.recommended {
+  margin-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #333;
+  }
+  
+  .recommended__title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #1f2937;
+  }
+  
+  .recommended__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  }
+  
+  .recommended__item {
+  width: 200px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  }
+  
+  .recommended__image {
+  width: 100%;
+  height: auto;
+  }
+  
+  .recommended__details {
+  padding: 1rem;
+  }
+  
+  .recommended__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 1rem;
+  }
+  
+  .recommended__year {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6b7280;
+  margin-top: 0.5rem;
+  }
+  
+  /* Replace with Tailwind CSS classes */
+  
+  .recommended {
+  @apply mt-12 font-sans text-lg text-gray-800;
+  }
+  
+  .recommended__title {
+  @apply text-3xl font-bold text-indigo-900 mb-8;
+  }
+  
+  .recommended__list {
+  @apply flex flex-wrap gap-8;
+  }
+  
+  .recommended__item {
+  @apply w-64 bg-white shadow-md overflow-hidden;
+  }
+  
+  .recommended__image {
+  @apply w-full h-auto;
+  }
+  
+  .recommended__details {
+  @apply p-4;
+  }
+  
+  .recommended__name {
+  @apply text-lg font-bold text-gray-900 mb-2;
+  }
+  
+  .recommended__year {
+  @apply text-base font-normal text-gray-500;
+  }
